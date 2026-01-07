@@ -11,7 +11,7 @@ function Child(props){
     return(
         <div >
             <h1>Parent Component</h1>
-            {isLoggedIn ? <h1>You are logged In!</h1>: 
+            {isLoggedIn ? <p>You are logged In!</p>: 
             <form onSubmit={handleSubmit}>
                 <label >Username:</label>
                 <input id="username" name="username" />
